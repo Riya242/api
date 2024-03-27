@@ -2,7 +2,7 @@
 class Database{
     private $host="localhost";
     private $dbname="api";
-    private $users="root";
+    private $user="root";
     private $password="";
     public $conn;
     public function getConnection(){
